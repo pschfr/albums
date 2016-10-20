@@ -18,14 +18,8 @@ h1 {
 	margin-right: 5px;
 }
 h2 {
-	filter: alpha(opacity = 80);
 	opacity: 0.8;
 	text-transform: lowercase;
-}
-footer {
-	text-align: center;
-	filter: alpha(opacity = 80);
-	opacity: 0.8;
 }
 section { margin-top: 40px; }
 nav a, nav a:visited {
@@ -35,12 +29,8 @@ nav a, nav a:visited {
 nav a:focus, nav a:hover { border-bottom: 1px dotted #333; }
 nav ul { text-transform: lowercase; }
 nav ul li { margin-right: 15px; }
-nav a.selected {
-	border-bottom: 1px solid #333;
-	cursor: pointer;
-}
+nav a.selected { border-bottom: 1px solid #333; }
 p  { margin-bottom: 1.5em; }
-/* Paul, you can do better than tables */
 table.grid { margin: 0 auto; }
 td {
 	padding: 30px;
@@ -52,7 +42,6 @@ td img {
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	border: 1px solid #333;
-	/* improve this */
 	-webkit-box-shadow: 0 8px 6px -6px #bbb;
 	-moz-box-shadow:    0 8px 6px -6px #bbb;
 	box-shadow:         0 8px 6px -6px #bbb;
@@ -66,13 +55,3 @@ aside {
 	color: #999;
 }
 aside p { margin-bottom: 5px; }
-html, body { height: 100%; }
-.content {
-	min-height: 100%;
-	margin-bottom: -60px; 
-}
-.content:after {
-	content: "";
-	display: block;
-}
-.stuck, .content:after { height: 40px; }
